@@ -6,6 +6,6 @@ def main(a):
     Returns:
         bool: answer
     """
-    x=a%100+((a//100)%10+a%100)%3==1
+    x=a%100+((a//100)%10+a%100)%2==1
     return x 
 print(main(152))
