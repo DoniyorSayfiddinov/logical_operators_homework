@@ -7,5 +7,6 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    return a<b 
+    x=a%2==0 or b%2==0
+    return x 
 print(main(7,1))
