@@ -8,6 +8,6 @@ def main(x):
     Returns:
         bool: answer
     """
-    y=x//100 == x%10
+    y=x//10 == x%10
     return y
-print(main(121))
+print(main(33))
